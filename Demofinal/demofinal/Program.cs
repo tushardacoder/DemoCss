@@ -1,5 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using demofinal;
+
+ShoopingCart shoopingCart = new ShoopingCart();
+//shoopingCart.products[shoopingCart.ItemCount++] = new Camera();
+//shoopingCart.products[shoopingCart.ItemCount++]=  new Camera();
+//shoopingCart.products[shoopingCart.ItemCount++] = new Toothpaste();
 
 
-Console.WriteLine("Tushar Basak da coder haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaai");
+//shoopingCart.showcartitems();
