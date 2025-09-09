@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public static class Utility
+    public  class Utility
     {
         public static int _id;
         public static string Location { get; set; }

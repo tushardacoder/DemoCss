@@ -10,7 +10,7 @@ namespace Task2
     {
         public override string MakeUsername(string username)
         {
-            return "ST-" + username;
+            return "ST-" + username+username;
         }
     }
 }
