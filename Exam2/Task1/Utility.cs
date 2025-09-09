@@ -8,16 +8,16 @@ namespace Task1
 {
     public  class Utility
     {
-        public static int _id;
-        public static string Location { get; set; }
+        public  int _id;
+        public string Location { get; set; }
 
-        static Utility()
+        public Utility()
         {
             _id = 1;
             Location = "Dhaka";
         }
 
-        public static string AppendLoction(string text)
+        public  string AppendLoction(string text)
         {
             return Location + text;
         }
