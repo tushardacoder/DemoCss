@@ -10,7 +10,7 @@ namespace Task2
     {
         public virtual string MakeUsername(string username)
         {
-            return username;
+            return username+username;
         }
     }
 }
